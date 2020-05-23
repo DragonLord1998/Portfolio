@@ -1,10 +1,10 @@
 #name{
     color: white;
     text-align: center;
-    padding-top: 20vh;
+    
     font-size: 20rem;
-    animation-name: Name;
-    animation-duration: 5s;
+    
+
 
 }
 body{
@@ -14,11 +14,20 @@ body{
 
 @keyframes Name {
     from {
+        position: relative;
+        top :10vh;
+        color: black;
+        padding-top: 2vh;
+        text-align: top ;
         text-shadow: 0 0 72px white;
-        color: transparent;
+        
                  
     }
-  to {text-shadow: 0;              color: white ;}
+  to {position: relative;
+    top :50vh;
+      text-shadow: 0;             
+     color: black ;
+     text-align: bottom;}
 }
 
 #name span:nth-of-type(1)  { animation: Name 5s       1 alternate; }
